@@ -9,7 +9,7 @@ function App() {
   return (
     < >
       <Routes>
-        <Route exact path="/" element={<Login/>}/>
+        <Route exact path="/crew_todoList/" element={<Login/>}/>
         <Route path="login" element={<Login/>}/>
         <Route path="dashboard" element={<Dashboard/>}/>
         <Route path="*" element={<Notfound/>}/>
